@@ -59,6 +59,16 @@ public class RegulargpsActivity extends Activity {
         */
     }
     
+    public void onClickButtonStartGps() {
+		Intent intent = new Intent(getApplicationContext(), GpsService.class);
+		startService(intent);
+	}
+
+    public void onClickButtonStopGps() {
+		Intent intent = new Intent(getApplicationContext(), GpsService.class);
+		stopService(intent);
+	}
+
     public void onClickButtonTwitter(View view) {
     	Intent intent = new Intent(this, TwitterAuthActivity.class);
     	intent.putExtra(TwitterAuthActivity.CALLBACK, "http://example.com");

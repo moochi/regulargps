@@ -23,6 +23,7 @@
         </activity>
         <activity android:name="TwitterAuthActivity">
         </activity>
+        <service android:name="GpsService"></service>
     </application>
 
 </manifest>

@@ -4,8 +4,9 @@
     <string name="hello">Hello World, RegulargpsActivity!</string>
     <string name="app_name">RegularGPS</string>
     <string name="save">save</string>
-    <string name="start">start</string>
-    <string name="stop">stop</string>
-    <string name="twitter">twitter</string>
+    <string name="start">gps start</string>
+    <string name="stop">gps stop</string>
+    <string name="twitter">twitter auth</string>
+    <string name="twitter_clear">twitter auth clear</string>
 
 </resources>
